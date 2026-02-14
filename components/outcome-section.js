@@ -31,9 +31,9 @@ window.SiteComponents.outcomeSection = function outcomeSection() {
 </div>
 <section class="max-w-5xl mx-auto px-6 py-24 md:py-32">
   <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-    <div class="sticky top-24">
+    <div class="lg:sticky lg:top-24">
       <span class="inline-block px-3 py-1 text-[10px] font-bold uppercase tracking-widest border border-black rounded-full mb-6">The Difference</span>
-      <h2 class="text-4xl md:text-5xl font-bold tracking-tighter leading-tight mb-6">takes responsibility for the outcome.</h2>
+      <h2 class="text-4xl md:text-5xl font-bold tracking-tighter leading-tight mb-6">Operator takes responsibility for the outcome.</h2>
       <p class="text-muted text-lg font-light max-w-md">A systematic approach to finishing what you started. Our engine deconstructs, executes, and validates every single action.</p>
       <div class="mt-12 p-8 border border-black rounded-xl bg-zinc-50 relative overflow-hidden">
         <div class="relative z-10">
