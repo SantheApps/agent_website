@@ -52,12 +52,12 @@ window.SiteComponents.sections = function sections() {
       <div class="grid grid-cols-1 gap-4">
         <div class="bg-white p-6 rounded-lg notion-border shadow-sm">
           <h3 class="font-bold mb-2">The Execution Gap</h3>
-          <div class="w-full h-2 bg-slate-100 rounded-full mb-4 overflow-hidden"><div class="w-1/3 h-full"></div></div>
+          <div class="w-full h-2 bg-slate-100 rounded-full mb-4 overflow-hidden"><div class="w-1/3 h-full bg-foreground"></div></div>
           <p class="text-xs text-muted uppercase tracking-widest font-semibold">Standard AI: 30% Completion</p>
         </div>
         <div class="bg-white p-6 rounded-lg notion-border shadow-sm border-l-4">
           <h3 class="font-bold mb-2">TaskAgentAI</h3>
-          <div class="w-full h-2 bg-slate-100 rounded-full mb-4 overflow-hidden"><div class="w-full h-full"></div></div>
+          <div class="w-full h-2 bg-slate-100 rounded-full mb-4 overflow-hidden"><div class="w-full h-full bg-foreground"></div></div>
           <p class="text-xs uppercase tracking-widest font-bold">Autonomous: 100% Completion</p>
         </div>
       </div>
@@ -95,7 +95,7 @@ window.SiteComponents.sections = function sections() {
     <div class="relative flex flex-col md:flex-row justify-between items-start gap-12 md:gap-4">
       <div class="flex-1 flex flex-col items-center text-center relative z-10 w-full"><div class="size-10 rounded-full bg-foreground text-white flex items-center justify-center font-bold mb-4 shadow-md">1</div><h4 class="font-bold text-sm mb-1">Goal</h4><p class="text-xs text-muted px-4">Define high-level objective</p><div class="hidden md:block absolute top-5 left-1/2 w-full h-[1px] bg-slate-200 -z-10"></div></div>
       <div class="flex-1 flex flex-col items-center text-center relative z-10 w-full"><div class="size-10 rounded-full bg-foreground text-white flex items-center justify-center font-bold mb-4 shadow-md">2</div><h4 class="font-bold text-sm mb-1">Plan</h4><p class="text-xs text-muted px-4">Logical pathing &amp; logic</p><div class="hidden md:block absolute top-5 left-1/2 w-full h-[1px] bg-slate-200 -z-10"></div></div>
-      <div class="flex-1 flex flex-col items-center text-center relative z-10 w-full"><div class="size-10 rounded-full text-white flex items-center justify-center font-bold mb-4 shadow-md">3</div><h4 class="font-bold text-sm mb-1">Execute</h4><p class="text-xs text-muted px-4">Direct action in toolset</p><div class="hidden md:block absolute top-5 left-1/2 w-full h-[1px] bg-slate-200 -z-10"></div></div>
+      <div class="flex-1 flex flex-col items-center text-center relative z-10 w-full"><div class="size-10 rounded-full bg-foreground text-white flex items-center justify-center font-bold mb-4 shadow-md">3</div><h4 class="font-bold text-sm mb-1">Execute</h4><p class="text-xs text-muted px-4">Direct action in toolset</p><div class="hidden md:block absolute top-5 left-1/2 w-full h-[1px] bg-slate-200 -z-10"></div></div>
       <div class="flex-1 flex flex-col items-center text-center relative z-10 w-full"><div class="size-10 rounded-full bg-foreground text-white flex items-center justify-center font-bold mb-4 shadow-md">4</div><h4 class="font-bold text-sm mb-1">Correct</h4><p class="text-xs text-muted px-4">Real-time troubleshooting</p><div class="hidden md:block absolute top-5 left-1/2 w-full h-[1px] bg-slate-200 -z-10"></div></div>
       <div class="flex-1 flex flex-col items-center text-center relative z-10 w-full"><div class="size-10 rounded-full bg-foreground text-white flex items-center justify-center font-bold mb-4 shadow-md">5</div><h4 class="font-bold text-sm mb-1">Finish</h4><p class="text-xs text-muted px-4">Verified final output</p></div>
     </div>
