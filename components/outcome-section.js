@@ -4,9 +4,9 @@ window.SiteComponents.outcomeSection = function outcomeSection() {
   return `
 <section class="max-w-5xl mx-auto px-6 py-24 md:py-32">
   <div class="text-center mb-16 space-y-4">
-    <span class="inline-block px-3 py-1 text-[10px] font-bold uppercase tracking-widest border border-black rounded-full mb-4">The Status Quo</span>
-    <h1 class="text-4xl md:text-6xl font-bold tracking-tighter leading-tight max-w-3xl mx-auto">Work starts. <br/>But it doesn’t always finish.</h1>
-    <p class="text-muted text-lg md:text-xl max-w-2xl mx-auto font-light leading-relaxed">In most companies, tasks break halfway, errors stop progress, and someone has to keep checking. Most AI tools just give answers; they don’t complete the work.</p>
+    <span class="inline-block px-3 py-1 text-[10px] font-bold uppercase tracking-widest border border-black rounded-full mb-4">A typical AI tool works like this</span>
+    <h1 class="text-4xl md:text-6xl font-bold tracking-tighter leading-tight max-w-3xl mx-auto">You give it a prompt. <br/>It generates a response.<br/> It stops.</h1>
+    <p class="text-muted text-lg md:text-xl max-w-2xl mx-auto font-light leading-relaxed">It might draft something. Suggest something. Outline something. But it doesn’t actually complete the task. And real work isn’t one step.</p>
   </div>
   <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
     <div class="group p-8 border border-input rounded-xl bg-white transition-all hover:shadow-sm hover:border-black">
@@ -33,7 +33,7 @@ window.SiteComponents.outcomeSection = function outcomeSection() {
   <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
     <div class="sticky top-24">
       <span class="inline-block px-3 py-1 text-[10px] font-bold uppercase tracking-widest border border-black rounded-full mb-6">The Difference</span>
-      <h2 class="text-4xl md:text-5xl font-bold tracking-tighter leading-tight mb-6">This system doesn’t <br/>stop at advice.</h2>
+      <h2 class="text-4xl md:text-5xl font-bold tracking-tighter leading-tight mb-6">takes responsibility for the outcome.</h2>
       <p class="text-muted text-lg font-light max-w-md">A systematic approach to finishing what you started. Our engine deconstructs, executes, and validates every single action.</p>
       <div class="mt-12 p-8 border border-black rounded-xl bg-zinc-50 relative overflow-hidden">
         <div class="relative z-10">

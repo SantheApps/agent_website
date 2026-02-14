@@ -8,7 +8,7 @@ window.SiteComponents.footer = function footer() {
       <div class="size-5 bg-foreground rounded flex items-center justify-center">
         <span class="material-symbols-outlined text-white text-[12px]">task_alt</span>
       </div>
-      <span class="font-bold text-md tracking-tight">TaskAgentAI</span>
+      <span class="font-bold text-md tracking-tight">Operator</span>
     </div>
     <div class="flex gap-8">
       <a class="text-xs font-medium text-muted hover:text-foreground" href="#">Privacy Policy</a>
@@ -16,7 +16,7 @@ window.SiteComponents.footer = function footer() {
       <a class="text-xs font-medium text-muted hover:text-foreground" href="#">Status</a>
       <a class="text-xs font-medium text-muted hover:text-foreground" href="#">Contact</a>
     </div>
-    <p class="text-xs text-muted">© 2024 TaskAgentAI Inc. All rights reserved.</p>
+    <p class="text-xs text-muted">© 2024 Operator Inc. All rights reserved.</p>
   </div>
 </footer>`;
 };

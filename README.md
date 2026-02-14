@@ -1,6 +1,6 @@
 # Agent Website
 
-Marketing website for **TaskAgentAI**, built as a static site with Tailwind (CDN) and modular UI components.
+Marketing website for **Operator**, built as a static site with Tailwind (CDN) and modular UI components.
 
 ## Project Structure
 
