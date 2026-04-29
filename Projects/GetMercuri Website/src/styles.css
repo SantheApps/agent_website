@@ -1,0 +1,79 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: #ffffff;
+  color: #191919;
+}
+
+.ui-shell {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.ui-card {
+  border: 1px solid #ececec;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+}
+
+.ui-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 160ms ease;
+  white-space: nowrap;
+}
+
+.ui-button-primary {
+  background: #111111;
+  color: #ffffff;
+}
+
+.ui-button-primary:hover {
+  background: #2a2a2a;
+}
+
+.ui-button-ghost {
+  border: 1px solid #e6e6e6;
+  color: #222222;
+  background: #ffffff;
+}
+
+.ui-button-ghost:hover {
+  background: #f7f7f7;
+}
+
+.ui-button:focus-visible {
+  outline: 2px solid #bdbdbd;
+  outline-offset: 2px;
+}
+
+.ui-link {
+  color: #6b6b6b;
+  transition: color 140ms ease;
+}
+
+.ui-link:hover {
+  color: #111111;
+}
+
+.ui-muted {
+  color: #6f6f6f;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 360ms ease, transform 360ms ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.mobile-sticky-cta {
+  display: none;
+}
