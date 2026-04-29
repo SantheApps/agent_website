@@ -4,16 +4,25 @@ class HeroSection extends HTMLElement {
       <header class="px-6 pb-14 pt-14 sm:pt-20">
         <div class="ui-shell grid gap-10 lg:grid-cols-[1fr_1.05fr] lg:items-center">
           <div>
-            <span class="mb-5 inline-flex rounded-full border border-[#eaeaea] px-3 py-1 text-xs text-[#777]">Messaging infrastructure for high-growth teams</span>
+            <span class="mb-5 inline-flex rounded-full border border-[#eaeaea] px-3 py-1 text-xs text-[#777]">WhatsApp API & Twilio SMS Integration</span>
             <h1 class="text-4xl font-semibold leading-tight tracking-tight text-[#101010] sm:text-5xl">
-              We help you Build WhatsApp, SMS, and AI messaging systems that scale.
+              Need a WhatsApp or SMS platform built? We can help.
             </h1>
             <p class="ui-muted mt-5 max-w-xl text-[17px] leading-7">
-              Launch production-ready messaging infrastructure with CRM integrations, automation flows, and AI assistants.
+              Customer messaging platforms with CRM integrations, automation, and AI-powered assistants built on the Mercuri infrastructure.
             </p>
             <div class="mt-8 flex flex-wrap gap-3">
-              <a href="https://calendly.com/karthikmanjunath/30min" target="_blank" rel="noopener noreferrer" class="ui-button ui-button-primary h-10 px-5 text-sm">Book A Call</a>
-              <button class="ui-button ui-button-ghost h-10 px-5 text-sm">View solutions</button>
+              <a href="https://calendly.com/karthikmanjunath/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="ui-button ui-button-primary h-10 px-5 text-sm">
+                Book A Call
+              </a>
+
+              <a href="#projects"
+                class="ui-button ui-button-ghost h-10 px-5 text-sm">
+                View Previous Projects
+              </a>
             </div>
           </div>
 
